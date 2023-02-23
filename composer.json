@@ -1,0 +1,32 @@
+{
+  "name":              "r-peyron/password-bundle",
+  "description":       "description",
+  "minimum-stability": "stable",
+  "license":           "proprietary",
+  "authors":           [
+    {
+      "name":  "RPeyr",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.5",
+    "ext-json": "*",
+    "symfony/config": "^5.4 | ^6.0",
+    "symfony/dependency-injection": "^5.4 | ^6.0",
+    "symfony/http-kernel": "^5.4 | ^6.0"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^5.4 | ^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ingeneo\\Bundle\\ResetPassword\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ingeneo\\Bundle\\ResetPassword\\Tests\\": "tests/"
+    }
+  }
+}

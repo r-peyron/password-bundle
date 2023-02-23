@@ -1,7 +1,6 @@
 {
   "name":              "r-peyron/password-bundle",
   "description":       "description",
-  "minimum-stability": "stable",
   "license":           "proprietary",
   "authors":           [
     {

@@ -23,10 +23,10 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 class ResetPasswordBundle extends Bundle
 {
 
-//    public function getPath(): string
-//    {
-//        return __DIR__;
-//    }
+    public function getPath(): string
+    {
+        return __DIR__;
+    }
 
     public function getContainerExtension (): ?ExtensionInterface
     {
